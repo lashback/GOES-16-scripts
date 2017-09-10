@@ -13,7 +13,7 @@ This script plots the netcdf file.
 
 Usage:
 ```
-Usage: ./plot.py <MCMIPC netcdf file> <output.png>
+Usage: ./plotConus.py <MCMIPC netcdf file> <output.png>
 ```
 
 # syncDirectories.sh
