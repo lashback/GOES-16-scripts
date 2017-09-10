@@ -5,6 +5,7 @@ This script uses bands 1, 2, and 3 to generate a true color image. Band 13 is us
 
 
 Run `syncDirectories.sh`, then `plotConus.sh`, and finally `videoMaker.sh`
+If you get permission problems with reading DON'T WORRY just run `chmod -R 755 *`:fire:
 
 ===
 
