@@ -1,0 +1,19 @@
+GOES-16 Plotting Script
+===
+
+This script uses bands 1, 2, and 3 to generate a true color image. Band 13 is used for the areas not currently lit by the sun. Band 13 is converted to grey scale and then blended with the true color image using a "lighten" blend mode which takes the brightest RGB value for each pixel.
+
+
+# plotConus.py
+This script plots the netcdf file. 
+
+Usage:
+```
+Usage: ./plot.py <MCMIPC netcdf file> <output.png>
+```
+
+# syncDirectories.csh
+This script pulls down the last few days of multiband netcdf files of CONUS imagery.
+
+#videoMaker.sh
+This script sequences the images and turns them into an MP4 video.
